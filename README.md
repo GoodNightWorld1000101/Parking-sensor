@@ -5,10 +5,10 @@ We used an 8x8 LED matrix, a buzzer, two ultrasonic sensors, and a Raspberry Pi 
 
 The buzzer frequency increases as the distance decreases. The buzzer will sound in intervals, with the frequency increasing every 25 cm. Specifically:
 
--If an object is less than 25 cm away, the buzzer will sound continuously.
--For distances between 25 cm and 50 cm, the buzzer will beep at a regular interval.
--For distances between 50 cm and 75 cm, the interval will be longer.
--If the object is greater than 75 cm away, the buzzer remains silent, indicating a safe distance.
+- If an object is less than 25 cm away, the buzzer will sound continuously.
+- For distances between 25 cm and 50 cm, the buzzer will beep at a regular interval.
+- For distances between 50 cm and 75 cm, the interval will be longer.
+- If the object is greater than 75 cm away, the buzzer remains silent, indicating a safe distance.
 
 The 25 cm distance steps are also displayed on the 8x8 LED matrix, giving a visual indication of the object's proximity.
 
